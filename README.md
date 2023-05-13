@@ -1,0 +1,81 @@
+## Workshop Instructional Materials
+
+Welcome to the [Next Generation Team's Workshop Library](presentation.pptx), built by Cloud Advocates and their colleagues in partnership with Microsoft Student Ambassadors. In this repo, you'll find grab-and-go resources to help you host your own workshop.
+
+✨✨✨✨✨✨ What's a 'grab-and-go' workshop? It's something you can 'check out' of this library and CUSTOMIZE IT to your community's needs, interest, and language. You can deliver these workshops verbatim, or totally rearrange them and their assets to suit your needs! ✨✨✨✨✨✨
+
+[![Workshop Library overview ](/images/how-to.gif)](https://youtu.be/tylrSBnjHGo "Workshop Library overview - Click to Watch!")
+> 🎥 Click the image above to learn how to deliver a workshop from this library
+
+# Prepared Workshops
+
+> 🏎 indicates short workshops
+
+> 1️⃣, 2️⃣, 3️⃣ indicate beginner, intermediate, and advanced level workshops
+
+[AI/ML Workshops](#AI) | [Data Workshops](#data) | [Web/App Development Workshops](#web)
+
+## <a name="AI"></a>AI/ML Workshops
+
+| Level | Workshop Title  | Author(s)  | Duration   | What you will learn | Train-the-Trainer Video | Technologies taught, paired Microsoft Learn modules |
+|-| ------------------------------- | ----------- |  -------------------------------------- | - | - | - |
+2️⃣ | [Build a Machine Learning Model using Custom Vision](./full/ml-model-custom-vision/README.md)|Christopher Harrison | 1 hour |  Use images to train a model to be able to perform inference to classify images | [🎥](https://youtu.be/YWTDxcHAfkA) | Python, Visual Studio Code, Git, [Object detection with Custom Vision](https://docs.microsoft.com/learn/modules/detect-objects-images-custom-vision/?WT.mc_id=academic-49102-chrhar), [Creating custom models with TensorFlow](https://docs.microsoft.com/learn/paths/tensorflow-fundamentals/?WT.mc_id=academic-49102-chrhar) |
+2️⃣ | [Build an AI web app by using Python and Flask](./full/flask-text-translator/README.md) | Christopher Harrison | 1 hour  | How to use Azure Cognitive Services for text translation in a web app build with Python using Flask as a framework | [🎥](https://youtu.be/h7GbZzmjJRE) | Azure Cognitive Services, [Build an AI web app by using Python and Flask](https://docs.microsoft.com/learn/modules/python-flask-build-ai-web-app/?WT.mc_id=academic-56258-chrhar) |
+2️⃣ | [Create a Regression Model with Azure Machine Learning designer](./full/regression-aml-designer/README.md) | Dmitry Soshnikov | 1 hour  | Train and deploy machine learning model for predicting car prices using low code/no code Azure ML Designer | | [Create a Regression Model with Azure Machine Learning designer](https://docs.microsoft.com/learn/modules/create-regression-model-azure-machine-learning-designer/?WT.mc_id=academic-56424-dmitryso) |
+3️⃣ | [Use TensorFlow and Keras for Natural Language Processing](./full/intro-nlp-tensorflow/README.md) | Alfredo Deza | 1 hour  | How to process text to generate new text using TensorFlow and Keras running in Jupyter Notebooks | [🎥](https://youtu.be/f2RoFeLDneI) | Keras, Python, Jupyter, [Introduction to NLP with TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/?WT.mc_id=academic-56322-alfredodeza) |
+2️⃣ | [Integrating Custom Vision with Power Apps for Diabetic Retinopathy Detection](./full/power-app-custom-vision/README.md) | [Jingyi Zhu](https://github.com/viviana2419), [Sanya Sinha](https://github.com/ssanya942) | 1 hour | Use Custom Vision and a Power App to create an image classification solution to detect diabetic retinopathy | [🎥](https://youtu.be/YctfdD8ycQY) | [Power Apps](https://docs.microsoft.com/learn/modules/customize-apps-in-powerapps/), [Custom Vision](https://docs.microsoft.com/learn/modules/classify-images-custom-vision/) |
+3️⃣ | [Deep Learning for Computer Vision](./full/deep-learning-computer-vision/README.md) | [Dmitry Soshnikov](http://soshnikov.com) | 1-1.5 hours | How to use neural networks to classify images of different breeds of cats and dogs | [🎥](https://youtu.be/9tW-KuQ6sEA) | Python, [Introduction to Computer Vision with PyTorch](https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-56313-dmitryso), [Introduction to Computer Vision with TensorFlow](https://docs.microsoft.com/learn/modules/intro-computer-vision-tensorflow/?WT.mc_id=academic-56313-dmitryso) |
+
+## <a name="data"></a>Data Workshops
+
+| Level | Workshop Title  | Author(s)  | Duration   | What you will learn | Train-the-Trainer Video | Technologies taught, paired Microsoft Learn modules |
+|-| ------------------------------- | ----------- |  -------------------------------------- | - | - | - |
+1️⃣ | [Intro to Jupyter Notebooks](./short/intro-jupyter-notebooks-python/README.md) | [Jen Looper](https://jenlooper.com) | 🏎 20 minutes  | How to build and run Jupyter Notebooks in VS Code |[🎥](https://youtu.be/QJHd4jf4ekI?t=4532) | VS Code, the Python VS Code extension, [Get started with Jupyter notebooks for Python](https://docs.microsoft.com/learn/modules/python-create-run-jupyter-notebook/?WT.mc_id=academic-56952-jelooper) |
+1️⃣ | [Explore and Analyze Data with R](./full/explore-analyze-data-with-R/README.md) | Carlotta Casteluccio and [Eric Wanjau](https://twitter.com/ericntay) | 2 hours | Clean and explore data with R | [🎥](https://youtu.be/VrVHaxarniY) | data, R, Tidyverse, [Explore and analyze data with R](https://docs.microsoft.com/en-us/learn/modules/explore-analyze-data-with-r/?WT.mc_id=academic-59300-cacaste) |
+2️⃣ | [Predict Future Water Consumption with ML.NET](./full/ml-dotnet-water-tracker) | Carlotta Casteluccio and Katie Savage | 45 minutes  | Learn to make predictions from a historical dataset using regression modelling and machine learning with ML.NET | [🎥](https://aka.ms/studentzone-ml) | VS Code, .NET, Polyglot notebooks extension, or Codespaces |
+2️⃣ | [Read and Write Data using Azure DataBricks](./full/intro-databricks/README.md) | Alfredo Deza | 1 hour | Read and write data to an Azure Databricks cluster using notebooks and ready-to-use datasets. | [🎥](https://youtu.be/55rHLoFGJ98)| [Read and write data in Azure Databricks](https://docs.microsoft.com/learn/modules/read-write-data-azure-databricks/?WT.mc_id=academic-56680-alfredodeza) |
+2️⃣ | [COVID Paper Exploration Workshop](./full/covid-paper-text-analytics/README.md) | [Dmitry Soshnikov](http://soshnikov.com) | 1-1.5 hours | How to use Azure Text Analytics Cognitive Service, How to process tabular data in Python using Pandas and visualize them using different visualization techniques | [🎥](https://youtu.be/OcJ4VY0ojhk) | Python, Pandas, [Azure Cognitive Services](https://docs.microsoft.com/learn/modules/analyze-text-with-text-analytics-service/?WT.mc_id=academic-49822-dmitryso) |
+2️⃣ | [Clean and Prepare Data using Python](./full/clean-prepare-data-python/README.md) | Ornella Altunyan | 1 hour  | Use Python and popular libraries like NumPy and pandas to manipulate and clean data to prepare it for analysis. | [🎥](https://youtu.be/DVlE8kS5lcU) | VS Code, the Python VS Code extension, [Manipulate and clean data in Python](https://docs.microsoft.com/learn/modules/data-manipulate-clean/?WT.mc_id=academic-56265-ornella) |
+2️⃣ | [Introduction to Regression Models with R and Tidymodels](./full/intro-regression-R-tidymodels/README.md) | Carlotta Casteluccio and [Eric Wanjau](https://twitter.com/ericntay) | 1.5-2 hours | Using R, learn about Regression Models with Tidymodels |  [🎥](https://youtu.be/ckqijBKO-Es) | Regression, Tidymodels, Tidyverse, R, [Introduction to regression models by using R and tidymodels](https://docs.microsoft.com/en-us/learn/modules/introduction-regression-models/?WT.mc_id=academic-59300-cacaste) |
+2️⃣ | [Introduction to Classification Models with R and Tidymodels](./full/intro-classification-R-tidymodels/README.md) | Carlotta Casteluccio and [Eric Wanjau](https://twitter.com/ericntay) | 1.5-2 hours | Using R, learn about Classification Models with Tidymodels | [🎥](https://youtu.be/NpYpUgaoK8M)  | Classification, Tidymodels, Tidyverse, R, [Introduction to classification models by using R and tidymodels](https://docs.microsoft.com/en-us/learn/modules/introduction-classification-models/?WT.mc_id=academic-59300-cacaste) |
+2️⃣ | [Introduction to Clustering Models with R and Tidymodels](./full/intro-clustering-R-tidymodels/README.md) | Carlotta Casteluccio and [Eric Wanjau](https://twitter.com/ericntay) | 1.5-2 hours | Using R, learn about Clustering Models with Tidymodels | [🎥](https://youtu.be/7YMNl-7gZhs)  | Clustering, Tidymodels, Tidyverse, R, [Introduction to clustering models by using R and tidymodels](https://docs.microsoft.com/en-us/learn/modules/introduction-clustering-models/?WT.mc_id=academic-59300-cacaste) |
+
+## <a name="web"></a>Web Development / App Development Workshops
+
+| Level | Workshop Title  | Author(s)  | Duration   | What you will learn | Train-the-Trainer Video | Technologies taught, paired Microsoft Learn modules |
+|-| ------------------------------- | ----------- |  -------------------------------------- | - | - | - |
+1️⃣ | [Intro to GitHub using GitHub.dev](./short/intro-github-dev/README.md) | [Jen Looper](https://jenlooper.com) | 🏎 15 minutes  | Perform common source control tasks in the browser using GitHub.dev | [🎥](https://youtu.be/QJHd4jf4ekI?t=236) | GitHub basics, [Introduction to GitHub](https://docs.microsoft.com/learn/modules/introduction-to-github/?WT.mc_id=academic-55780-jelooper) |
+1️⃣ | [Explore the art world by using RESTful APIs](./short/explore-art-rest-api/README.md) | [Jen Looper](https://jenlooper.com) | 🏎 20 minutes  | How to query APIs using various authentication strategies | [🎥](https://youtu.be/QJHd4jf4ekI?t=3341) | [RESTful APIs](https://docs.microsoft.com/learn/modules/use-apis-discover-museum-art/?WT.mc_id=academic-56423-jelooper) |
+1️⃣ | [Intro to Static Web Apps](./short/intro-static-web-apps/README.md) | Chris Noring | 🏎 20 minutes  | How to build and deploy a static web app | [🎥](https://youtu.be/QJHd4jf4ekI?t=1231) | JavaScript, VS Code, the Static Web App VS Code extension, [Azure Static Web Apps](https://docs.microsoft.com/learn/modules/publish-app-service-static-web-app-api/?WT.mc_id=academic-56895-chnoring) |
+1️⃣ | [Build a Website to Showcase your Resume](./full/build-resume-website/README.md) | Ornella Altunyan | 1 hour  | Basics of HTML and CSS to showcase your skills in an online resume | [🎥](https://youtu.be/M2IrPFMFwx8) | HTML, CSS, GitHub Pages, [Web development](https://docs.microsoft.com/learn/paths/web-development-101/?WT.mc_id=academic-51109-ornella) |
+1️⃣ | [Build an App without Using any Code with Microsoft Power Platform](./full/power-platform-canvas-app/README.md) | Haimantika Mitra | 1 hour  | Build a no-code App using Power Platform |[🎥](https://youtu.be/NLXtRjXgMBo) | Power Apps, Power Platform, [Canvas apps](https://docs.microsoft.com/learn/modules/build-app-solution/?WT.mc_id=academic-56577-hmitra) |
+1️⃣ | [Getting Started with Development Containers in VS Code](./full/using-dev-containers-vscode/README.md) | Ornella Altunyan | 1 hour | How to leverage development containers in Visual Studio Code to collaborate across machines and development environments. |[🎥](https://youtu.be/StzyJcGI0uo) | Git, [Use a Docker container as a development environment with Visual Studio Code](https://docs.microsoft.com/learn/modules/use-docker-container-dev-env-vs-code/?WT.mc_id=academic-55190-ornella) |
+1️⃣ | [JavaScript Portfolio Site with GitHub Codespaces](./short/codespaces-project-template-js/) | Sara Gibbons | 35 minutes | Customize your Codespaces environment to customize and deploy your own portfolio website |  | Codespaces, JavaScript, HTML, CSS |
+2️⃣ | [Build your Resume Website with .NET](./full/build-resume-website-dotnet/) | Matt Soucoup and Katie Savage | 1 hour | Create and customize your own Resume Website using Microsoft's .NET Blazor | [🎥](https://aka.ms/studentzone-blazor) | .NET, Blazor, Azure |
+2️⃣ | [Track your Water Consumption with .NET IoT](./full/track-water-consumption-iot-dotnet/) | Krzysztof Wicher and Katie Savage | 1 hour | Create an IoT project that will track your water consumption using weight sensors and an accelerometer | [🎥](https://aka.ms/studentzone-iot) | .NET, IoT, Azure |
+2️⃣ | [Build a Mobile App to Track Water Consumption](./full/mobile-app-water-consumption) | Someleze Diko and Katie Savage | 1 hour | Create a mobile app with .NET MAUI to track your water consumption. | [🎥](https://aka.ms/studentzone-maui) | .NET MAUI |
+2️⃣ | [Python HTTP API for use with GitHub Codespaces](./short/codespaces-project-template-py/) | Alfredo Deza | 35 minutes | Customize your Codespaces environment and get hands-on with a Python web app that serves an HTTP API using the [FastAPI](https://fastapi.tiangolo.com/) framework. | [🎥](https://www.youtube.com/watch?v=_i9Pywj3rSg) | Codespaces, Python, Azure |
+2️⃣ | [Build a Minimal API with .NET 6](./full/intro-minapi/README.md) | Katie Savage | 1 hour | Build your first web API by building a Todo list. | [🎥](https://youtu.be/rGcVkQRP2t4) | .NET 6, SQLite, [Build a web API with minimal API, ASP.NET Core, and .NET 6](https://docs.microsoft.com/learn/modules/build-web-api-minimal-api/) |
+2️⃣ | [Build an API for Water Consumption Tracking](./full/backend-api-water-tracker/README.md) | Chris Noring and Katie Savage | 1 hour | Build an API to serve data related to your water consumption. | [🎥](https://aka.ms/studentzone-apis) | [.NET SDK](https://dotnet.microsoft.com/download/dotnet/6.0?WT.mc_id=academic-78652-leestott), [Visual Studio Code](https://code.visualstudio.com/), [Azure Tools](https://code.visualstudio.com/docs/azure/extensions) |
+2️⃣ | [Get Started with React](./full/intro-react/README.md) | Christopher Harrison | 1 hour  | Learn how to create React components, add style, and use JSX.  | [🎥](https://youtu.be/_id4QTDI5yg) | VS Code, Node, Git, [Getting started with React](https://docs.microsoft.com/learn/modules/react-get-started/?WT.mc_id=academic-56602-chrhar)|
+2️⃣ | [Create Serverless Logic with Azure Functions](./full/azure-functions/README.md) | Ornella Altunyan | 45 mins  | How to identify if an Azure function is right for your development needs, and how to create and use functions from the Azure portal | [🎥](https://youtu.be/ebiLaNQuP4g) | JavaScript or PowerShell, [Create serverless logic with Azure Functions](https://docs.microsoft.com/learn/modules/create-serverless-logic-with-azure-functions/?WT.mc_id=academic-56400-ornella) |
+2️⃣ | [Get Started with Django](./full/django-get-started/README.md) | Christopher Harrison | 1-1.5 hours | Build a web app with Django | [🎥](https://youtu.be/H3dDiVNY_ks) | Python, [Get started with Django](https://docs.microsoft.com/learn/modules/django-get-started/?WT.mc_id=academic-56601-chrhar)|
+2️⃣ | [Build a Mood Journal Progressive Web App](./full/mood-journal-progressive-web-app/README.md) | Beth Pan | 1.5 hours | Build a Mood Journal for Mental Health as a Progressively-Enhanced Web app | [🎥](https://youtu.be/12THeQreSQ0) | JavaScript|
+
+---
+<details>
+<summary><h2>Resources on how to teach and mentor effectively</h2></summary>
+<br>
+
+
+
+Use the [Cheat Sheet](./cheat-sheet.md) to organize your workshop delivery
+
+[Slides on how to mentor](https://github.com/FrontEndFoxes/art/blob/main/frontend-foxes-mentor-training.pdf) from Front-End Foxes School
+
+[LinkedIn Learning Course](https://www.linkedin.com/learning/teaching-techniques-developing-curriculum/welcome?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=3322) on how to develop curriculum
+
+[LinkedIn Learning Course](https://www.linkedin.com/learning/presenting-technical-information-with-stories/storytelling-for-technical-presentations?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=3322) on how to present technical topics with stories
+
+These workshops were created using our [template](https://github.com/microsoft/workshop-template)
+</details>

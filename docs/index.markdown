@@ -7,3 +7,5 @@ layout: home
 title: "Home"
 #permalink: /home/
 ---
+
+[PDF File](/assets/pdfs/00-App in a Day - Opening and logistics.pdf)

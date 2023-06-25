@@ -5,10 +5,10 @@ permalink: /events/
 notshow_in_nav: true
 ---
 
-## Demonstrações
+### Demonstrações
 
-??
+[Desenvolvimento de Aplicativos e Portais com Power Platform](../events/demos/appdev).
 
-## Workshops
+### Workshops
 
 ??

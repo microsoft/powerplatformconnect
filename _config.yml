@@ -53,3 +53,11 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+#additional configs
+markdown: GFM
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true

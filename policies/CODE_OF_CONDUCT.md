@@ -1,4 +1,10 @@
-# Microsoft Open Source Code of Conduct
+---
+layout: page
+title: Código de Conduta Open Source da Microsoft
+permalink: /policies/conductcode/
+notshow_in_nav: true
+---
+
 
 Este projeto adota o Código de Conduta de Código Aberto da Microsoft.
 

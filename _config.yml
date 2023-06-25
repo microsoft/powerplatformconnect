@@ -22,7 +22,7 @@ title: Power Platform Connect
 email: powerplatworkshopsbr@microsoft.com
 description: >- # this means to ignore newlines until "baseurl:"
   Materiais, tutoriais e dicas sobre Power Platform criados pela equipe de especialistas em Power Platform da Microsoft Brasil.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://microsoft.github.io/powerplatformconnect" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: rdesouzabr
 #github_username:  microsoft/powerplatformconnect
@@ -54,11 +54,6 @@ plugins:
 
 #additional configs
 markdown: GFM
-# defaults:
-#   - scope:
-#       path: "assets/img"
-#     values:
-#       image: true
 
 #include the following folders in the build
 include:
@@ -66,3 +61,8 @@ include:
  - _layouts
  - _sass
   
+defaults:
+   - scope:
+      path: "assets/img"
+     values: 
+      image: true

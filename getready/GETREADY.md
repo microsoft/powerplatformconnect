@@ -5,34 +5,34 @@ permalink: /getready/
 notshow_in_nav: true
 ---
 
-## Power Apps
+### Power Apps
 
 ??
 
-## Power Automate
+### Power Automate
 
 ??
 
-## Power Pages
+### Power Pages
 
 ??
 
-## Power Virtual Agents
+### Power Virtual Agents
 
 ??
 
-## Microsoft Dataverse
+### Microsoft Dataverse
 
 ??
 
-## IA Builder
+### IA Builder
 
 ??
 
-## Governança
+### Governança
 
 ??
 
-## Ciclo de Vida das Aplicações (ALM)
+### Ciclo de Vida das Aplicações (ALM)
 
 ??

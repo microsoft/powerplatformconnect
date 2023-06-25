@@ -11,7 +11,7 @@ Para dúvidas, sugestões ou comentários, acesse nossa página de discussões o
 
 ## Como contribuir?
 
-Este projeto recebe contribuições e sugestões.  A maioria das contribuições exige que você concorde com um
+Este projeto recebe contribuições e sugestões. A maioria das contribuições exige que você concorde com um
 Contrato de Licença de Colaborador (CLA) declarando que você tem o direito de, e realmente faz, nos conceder
 os direitos de usar sua contribuição. Para mais detalhes, acesse <https://cla.opensource.microsoft.com>.
 

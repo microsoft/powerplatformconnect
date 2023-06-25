@@ -15,7 +15,6 @@ notshow_in_nav: true
 
 Conheça nossos [eventos](/events).
 
-
 ## Material sobre Power Platform
 
 Acesse nossa coleção de [links oficiais](/getready) sobre a Power Platform.

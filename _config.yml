@@ -59,3 +59,10 @@ defaults:
       path: "assets/img"
     values:
       image: true
+
+#include the following folders in the build
+include:
+ - _includes
+ - _layouts
+ - _sass
+  

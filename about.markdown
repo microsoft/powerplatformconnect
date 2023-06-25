@@ -6,7 +6,7 @@ permalink: /about/
 
 Este site é mantido pela equipe de especialistas em Power Platform da Microsoft Brasil. Aqui você encontrará artigos, tutoriais, vídeos e outros conteúdos sobre Power Platform, Power Apps, Power Automate, Power BI, Power Virtual Agents e Power Apps Portals.
 
-Para dúvidas, sugestões ou comentários, acesse nossa página de discussões ou ainda, entre em contato conosco pelo e-mail: 
+Para dúvidas, sugestões ou comentários, acesse nossa página de discussões ou ainda, entre em contato conosco pelo e-mail:
 [powerplatworkshopsbr@microsoft.com](mailto:powerplatworkshopsbr@microsoft.com).
 
 ## Como contribuir?

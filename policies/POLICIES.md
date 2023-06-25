@@ -6,7 +6,7 @@ permalink: /policies/
 
 ## Suporte
 
-Conheça nossa [política de suporte](/policies/support/).
+Conheça nossa [política de suporte](../policies/support).
 
 ## Licença de uso
 

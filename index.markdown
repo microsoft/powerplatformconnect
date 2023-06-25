@@ -6,3 +6,16 @@ layout: home
 title: Home
 notshow_in_nav: true
 ---
+
+## Bem vindo ao Power Platform Connect
+
+??
+
+## Eventos
+
+Conheça nossos [eventos](/events).
+
+
+## Material sobre Power Platform
+
+Acesse nossa coleção de [links oficiais](/getready) sobre a Power Platform.

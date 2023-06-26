@@ -37,4 +37,7 @@ Citzen developers/makers, pro-devs e arquitetos
 
 ### Quer se preparar para o evento?
 
-??
+Acesse nossa coleção de conteúdo relavante sobre Governança e ALM na Power Platform:  
+[Power Apps](../../../getready/powerapps)  
+[Power Pages](../../../getready/powerpages)  
+[Microsoft Dataverse](../../../getready/dataverse)

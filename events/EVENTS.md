@@ -9,6 +9,10 @@ notshow_in_nav: true
 
 [Desenvolvimento de Aplicativos e Portais com Power Platform](../events/demos/appdev).
 
+[Hiper automação com Power Platform](../events/demos/hyperautomation).
+
+[Governança e ALM na Power Platform](../events/demos/govalm).
+
 ### Workshops
 
 ??

@@ -13,8 +13,8 @@ notshow_in_nav: true
 
 ## Eventos
 
-Conheça nossos [eventos](../events/).
+Conheça nossos [eventos](https://microsoft.github.io/powerplatformconnect/events/).
 
 ## Material sobre Power Platform
 
-Acesse nossa coleção de [links oficiais](../getready/) para conhecer mais sobre a Power Platform.
+Acesse nossa coleção de [links oficiais](https://microsoft.github.io/powerplatformconnect/getready/) para conhecer mais sobre a Power Platform.

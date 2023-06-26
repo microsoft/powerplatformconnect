@@ -17,4 +17,4 @@ Conheça nossos [eventos](../events).
 
 ## Material sobre Power Platform
 
-Acesse nossa coleção de [links oficiais](../getready) sobre a Power Platform.
+Acesse nossa coleção de [links oficiais](../getready) para conhecer mais sobre a Power Platform.

@@ -4,7 +4,7 @@ title: Sobre
 permalink: /about/
 ---
 
-!["Sobre o site"](../../assets/imgs/about-400.png "Sobre o site")
+!["Sobre o site"](../assets/imgs/about-400.png "Sobre o site")
 
 O Power Platform Connect é um site de conteúdo técnico sobre **Power Platform, Power Apps, Power Automate Power Virtual Agents** e **Power Apps Portals** mantido pelo time de especialistas técnicos em Power Platform da **Microsoft Brasil**. Aqui você encontrará artigos, tutoriais, vídeos e outros conteúdos sobre essas tecnologias.
 

@@ -4,6 +4,8 @@ title: Politícas de uso
 permalink: /policies/
 ---
 
+!["Políticas de uso"](../../assets/imgs/policies-400.png "Políticas de uso")
+
 ### Suporte
 
 Conheça nossa [política de suporte](../policies/support).

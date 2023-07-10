@@ -26,13 +26,16 @@
           {%- endfor -%} -->
           <!-- Original navigation code -->
           
-          {% for page in site.pages %}
+          <!-- {% for page in site.pages %}
           {% unless page.notshow_in_nav %}
              {% if page.title %}
                <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                {% endif %}
           {% endunless %}
-          {% endfor %}  
+          {% endfor %}   -->
+          <a class="page-link" href="../" >Home</a>
+          <a class="page-link" href="../about/" >Sobre</a>
+          <a class="page-link" href="../policies/" >Políticas de uso</a>
           <a class="page-link" href="https://github.com/microsoft/powerplatformconnect/discussions" target="_blank">Discussões</a>
         </div>
       </nav>

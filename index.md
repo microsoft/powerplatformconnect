@@ -4,7 +4,7 @@
 
 layout: home
 title: Home
-notshow_in_nav: true
+notshow_in_nav: false
 ---
 
 ## Bem vindo ao Power Platform Connect

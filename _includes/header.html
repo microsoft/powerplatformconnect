@@ -26,16 +26,14 @@
           {%- endfor -%} -->
           <!-- Original navigation code -->
           
-          <!-- {% for page in site.pages %}
+          {% for page in site.pages %}
           {% unless page.notshow_in_nav %}
              {% if page.title %}
-               <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+               <!-- <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a> -->
+               <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
                {% endif %}
-          {% endunless %}
-          {% endfor %}   -->
-          <a class="page-link" href="{{prepend: site.url}}/">Home</a></a>
-          <a class="page-link" href="{{prepend: site.url}}/about/">Sobre</a>
-          <a class="page-link" href="{{prepend: site.url}}/policies/">Políticas de uso</a>
+          {% endunless %} 
+          {% endfor %}  
           <a class="page-link" href="https://github.com/microsoft/powerplatformconnect/discussions" target="_blank">Discussões</a>
         </div>
       </nav>

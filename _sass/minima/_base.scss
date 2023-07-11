@@ -224,7 +224,6 @@ pre {
 }
 
 
-
 /**
  * Tables
  */
@@ -233,22 +232,46 @@ table {
   width: 100%;
   text-align: $table-text-align;
   color: lighten($text-color, 18%);
-  border-collapse: collapse;
-  border: 1px solid $grey-color-light;
+}
+
+.tablewborders  {
+  all: inactive;
+  border: 0px solid $grey-color-light !important;
   tr {
     &:nth-child(even) {
-      background-color: lighten($grey-color-light, 6%);
+      background-color: lighten($grey-color-light, 6%) !important;
     }
   }
   th, td {
-    padding: ($spacing-unit / 3) ($spacing-unit / 2);
+    padding: ($spacing-unit / 4) ($spacing-unit / 4);
   }
   th {
-    background-color: lighten($grey-color-light, 3%);
-    border: 1px solid darken($grey-color-light, 4%);
-    border-bottom-color: darken($grey-color-light, 12%);
+    background-color: lighten($grey-color-light, 3%) !important;
+    border: 0px solid darken($grey-color-light, 4%) !important;
+    border-bottom-color: darken($grey-color-light, 12%) !important;
   }
   td {
-    border: 1px solid $grey-color-light;
+    border: 1px solid $grey-color-light !important;
+  }
+}
+
+.tablenborders {
+   all: inactive; 
+   border: 1px solid white !important;
+  tr {
+    &:nth-child(even) {
+      background-color: white !important;
+  }
+  th, td {
+    padding: ($spacing-unit / 4) ($spacing-unit / 4) !important;
+  }
+  th {
+    background-color: white !important;
+    border: 1px solid white !important;
+    border-bottom-color: white !important
+  }
+  td {
+    border: 1px solid white !important;
+  }
   }
 }

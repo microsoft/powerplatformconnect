@@ -10,11 +10,11 @@ O Power Platform Connect é um site de conteúdo técnico sobre **Power Platform
 
 ## Conheça o time
 
-Para saber mais sobre o time responsável pelo site, clique **[aqui](/policies/support/)**.
+Para saber mais sobre o time responsável pelo site, clique **[aqui](/team/)**.
 
 ## Suporte
 
-Para relatar problemas, esclarecer dúvidas ou ainda enviar sugestões, conheça nossa política de **[suporte](../support/)**.
+Para relatar problemas, esclarecer dúvidas ou ainda enviar sugestões, conheça nossa política de **[suporte](../policies/support/)**.
 
 ## Marcas registradas
 

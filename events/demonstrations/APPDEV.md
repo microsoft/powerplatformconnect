@@ -28,12 +28,35 @@ Citzen developers/makers, pro-devs e arquitetos
 
 ### Estrutura do evento
 
-| Tópico                                                                                | Duração     | Audiência recomendada |
-|---------------------------------------------------------------------------------------|-------------|-----------|
-| Introdução à Power Platform| xx minutos  | ??        |
-| Desenvolva rapidamente aplicativos com Power Apps| xx minutos  | ??        |
-| Desenvolva rapidamente portais empresariais com Power Pages| xx minutos  | ??        |
-| Fusion Teams com Power Platform (makers and pro-developers trabalhando em conjunto)| xx minutos  | ??        |
+<table class="tablewborders">
+<tbody align="left">
+  <tr>
+    <td><b>Tópico</b></td>
+    <td><b>Duração</b></td>
+    <td><b>Audiência recomendada</b></td>
+  </tr>
+  <tr>
+    <td>Introdução à Power Platform</td>
+    <td>TBD</td>
+    <td>TBD</td>
+  </tr>
+  <tr>
+    <td>Desenvolva rapidamente aplicativos com Power Apps</td>
+    <td>TBD</td>
+    <td>TBD</td>
+  </tr>
+  <tr>
+    <td>Desenvolva rapidamente portais empresariais com Power Pages</td>
+    <td>TBD</td>
+    <td>TBD</td>
+  </tr>
+  <tr>
+    <td>Fusion Teams com Power Platform (makers and pro-developers trabalhando em conjunto)</td>
+    <td>TBD</td>
+    <td>TBD</td>
+  </tr>  
+</tbody>
+</table>
 
 ### Quer se preparar para o evento?
 

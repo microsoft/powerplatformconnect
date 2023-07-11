@@ -5,7 +5,7 @@ permalink: /policies/conductcode/
 notshow_in_nav: true
 ---
 
-!["Suporte"](../assets/imgs/conductcode-400.png "Suporte")
+!["Código de conduta Open Source"](../../assets/imgs/conductcode-400.png "Código de conduta Open Source")
 
 Este projeto adota o **Código de Conduta de Código Aberto da Microsoft**. Para obter mais informações, consulte:
 

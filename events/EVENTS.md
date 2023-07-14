@@ -19,14 +19,14 @@ notshow_in_nav: true
     </tbody>
     </table>
 
-#### **Sessões**
+<h4><b>Sessões</b></h4>
 
 <table class="tablewborders">
 <tbody align="center">
   <tr>
-    <td>Teste</td>
-    <td>Teste</td>
-    <td>Teste</td>
+    <td><img src="../assets/imgs/appdev-img.png" alt="App Develop com Power Platform"></td>
+    <td><img src="../assets/imgs/hyperautom-img.png" alt="Hiper automação com Power Platform"></td>
+    <td><img src="../assets/imgs/govalm-img.png" alt="Governança e ALM na Power Platform"></td>
   </tr>
   <tr>
     <td width="33%"><a href="../events/demos/appdev/">Desenvolvimento de Aplicativos e Portais com Power Platform</a></td>
@@ -50,13 +50,13 @@ notshow_in_nav: true
     </tbody>
     </table>
 
-#### **Sessões**
+<h4><b>Sessões</b></h4>
 
 <table class="tablewborders" >
     <tbody align="center">
       <tr>
-        <td>Teste</td>
-        <td>Teste</td>
+        <td><img src="../assets/imgs/powerapps-ico-96.png" alt="Power Apps in a Day"></td>
+        <td><img src="../assets/imgs/pautomate-ico-96.png" alt="Power Automate in a Day"></td>
       </tr>
       <tr>
         <td width="50%"><a href="../">Power App in a Day</a></td>

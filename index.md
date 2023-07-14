@@ -9,7 +9,7 @@ notshow_in_nav: true
 
 <h2 style="text-align:center;"> <b>Bem vindo ao Power Platform Connect</b></h2>
 
-!["Bem vindo ao Power Platform Connect"](../assets/imgs/funny-site.png "Bem vindo ao Power Platform Connect")
+!["Bem vindo ao Power Platform Connect"](assets/imgs/funny-site.png "Bem vindo ao Power Platform Connect")
 
 O **Power Platform Connect** é uma iniciativa dos especialistas técnicos em **Power Platform** da **Microsoft Brasil** cujo objetivo é criar um canal de comunicação com usuários, makers e pro-coders para compartihar informações, experiências e materiais sobre a plataforma de low-code da Microsoft que é lider de mercado. Os principais recursos do site sao:
 
@@ -27,7 +27,7 @@ O **Power Platform Connect** é uma iniciativa dos especialistas técnicos em **
       <tr>
         <td width="200px">
             <a href="https://github.com/microsoft/powerplatformconnect/discussions" target="_blank">
-                <img src="../assets/imgs/discussions-ico-200.png" alt="Discussões">
+                <img src="assets/imgs/discussions-ico-200.png" alt="Discussões">
                 </a>
         </td>
         <td>
@@ -37,7 +37,7 @@ O **Power Platform Connect** é uma iniciativa dos especialistas técnicos em **
       </tr>
       <tr>
         <td width="200px">
-            <a href="../blog/"><img src="../assets/imgs/blog-ico-200.png" alt="Blog"></a>
+            <a href="blog/"><img src="assets/imgs/blog-ico-200.png" alt="Blog"></a>
         </td>
         <td>
             <h3><b>Blog</b></h3>
@@ -46,7 +46,7 @@ O **Power Platform Connect** é uma iniciativa dos especialistas técnicos em **
       </tr>
       <tr>
         <td width="200px">
-            <a href="../events/"><img src="../assets/imgs/demonstration-300.png" alt="Eventos"></a>
+            <a href="events/"><img src="assets/imgs/demonstration-300.png" alt="Eventos"></a>
         </td>
         <td>
             <h3><b>Eventos</b></h3>
@@ -56,9 +56,9 @@ O **Power Platform Connect** é uma iniciativa dos especialistas técnicos em **
     </tbody>
     </table>
 
-<img src="../assets/imgs/github-mark.png" alt="GitHub Logo" width="30px">
+<img src="assets/imgs/github-mark.png" alt="GitHub Logo" width="30px">
 Site desenvolvido com <a href="https://docs.github.com/pages" target="_blank">GitHub Pages</a> e <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.
 <br/>
 <br/>
-<img src="../assets/imgs/msdesigner-logo.png" alt="MS Designer Logo" width="30px">
+<img src="assets/imgs/msdesigner-logo.png" alt="MS Designer Logo" width="30px">
 Todas as artes foram criadas utilizando <a href="https://designer.microsoft.com/" target="_blank">Microsoft Designer</a>

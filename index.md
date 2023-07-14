@@ -17,7 +17,7 @@ O **Power Platform Connect** é uma iniciativa dos especialistas técnicos em **
     <tbody class="body" >
       <tr>
         <td width="200px">
-            <a href="/getready/"><img src="/assets/imgs/library-ico-200.png" alt="Links"></a>
+            <a href="getready/"><img src="assets/imgs/library-ico-200.png" alt="Links"></a>
         </td>
         <td>
             <h3><b>Biblioteca de conteúdo</b></h3>

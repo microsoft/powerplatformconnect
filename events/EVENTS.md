@@ -55,12 +55,12 @@ notshow_in_nav: true
 <table class="tablewborders" >
     <tbody align="center">
       <tr>
-        <td><img src="../assets/imgs/powerapps-ico-96.png" alt="Power Apps in a Day"></td>
-        <td><img src="../assets/imgs/pautomate-ico-96.png" alt="Power Automate in a Day"></td>
+        <td><img src="../assets/imgs/powerapps-ico-96.png" alt="App in a Day"></td>
+        <td><img src="../assets/imgs/pautomate-ico-96.png" alt="RPA in a Day"></td>
       </tr>
       <tr>
-        <td width="50%"><a href="../">Power App in a Day</a></td>
-        <td width="50%"><a href="../">Power Automate in a Day</a></td>
+        <td width="50%"><a href="../events/workshops/appinaday/">App in a Day</a></td>
+        <td width="50%"><a href="../events/workshops/rpainaday/">RPA in a Day</a></td>
       </tr>
     </tbody>
     </table>

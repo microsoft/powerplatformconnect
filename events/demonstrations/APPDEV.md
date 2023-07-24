@@ -16,7 +16,7 @@ Capacidade da turma: **100 pessoas**
 
 ### Pré-requisitos
 
-Conhecimentos **básicos** em Power Apps e Power Pages
+Conhecimentos **básicos** em Power Apps, Power Pages e Dataverse
 
 ### Objetivo
 
@@ -36,24 +36,34 @@ Citzen developers/makers, pro-devs e arquitetos
     <td><b>Audiência recomendada</b></td>
   </tr>
   <tr>
+    <td>Oportunidade do low-code</td>
+    <td>10</td>
+    <td>Citizen developers/makers, pro-developers</td>
+  </tr>
+  <tr>
     <td>Introdução à Power Platform</td>
-    <td>TBD</td>
-    <td>TBD</td>
+    <td>15</td>
+    <td>Citizen developers/makers, pro-developers</td>
   </tr>
   <tr>
-    <td>Desenvolva rapidamente aplicativos com Power Apps</td>
-    <td>TBD</td>
-    <td>TBD</td>
+    <td>Power Apps Canvas</td>
+    <td>30</td>
+    <td>Citizen developers/makers, pro-developers</td>
   </tr>
   <tr>
-    <td>Desenvolva rapidamente portais empresariais com Power Pages</td>
-    <td>TBD</td>
-    <td>TBD</td>
+    <td>Power Apps Model Driven e Dataverse</td>
+    <td>45</td>
+    <td>Citizen developers/makers, pro-developers</td>
   </tr>
+  <tr>
+    <td>Power Pages</td>
+    <td>30</td>
+    <td>Citizen developers/makers, pro-developers, arquitetos</td>
+  </tr>  
   <tr>
     <td>Fusion Teams com Power Platform (makers and pro-developers trabalhando em conjunto)</td>
-    <td>TBD</td>
-    <td>TBD</td>
+    <td>30</td>
+    <td>Citizen developers/makers, pro-developers, arquitetos</td>
   </tr>  
 </tbody>
 </table>

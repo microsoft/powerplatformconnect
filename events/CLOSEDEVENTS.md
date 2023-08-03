@@ -24,14 +24,14 @@ notshow_in_nav: true
 <table class="tablewborders">
 <tbody align="center">
   <tr>
-    <td><img src="../../assets/imgs/appdev-img.png" alt="App Develop com Power Platform"></td>
-    <td><img src="../../assets/imgs/hyperautom-img.png" alt="Hiper automação com Power Platform"></td>
-    <td><img src="../../assets/imgs/govalm-img.png" alt="Governança e ALM na Power Platform"></td>
+    <td><a href="../../events/closedevents/demos/appdev/"><img src="../../assets/imgs/appdev-img.png" alt="App Develop com Power Platform"></a></td>
+    <td><a href="../../events/closedevents/demos/hyperautomation/"><img src="../../assets/imgs/hyperautom-img.png" alt="Hiper automação com Power Platform"></a></td>
+    <td><a href="../../events/closedevents/demos/govalm/"><img src="../../assets/imgs/govalm-img.png" alt="Governança e ALM na Power Platform"></a></td>
   </tr>
   <tr>
-    <td width="33%"><a href="../../events/closedevents/demos/appdev/">Desenvolvimento de Aplicativos e Portais com Power Platform</a></td>
-    <td width="34%"><a href="../../events/closedevents/demos/hyperautomation/">Hiper automação com Power Platform</a></td>
-    <td width="33%"><a href="../../events/closedevents/demos/govalm/">Governança e ALM na Power Platform</a></td>
+    <td width="33%">Desenvolvimento de Aplicativos e Portais com Power Platform</td>
+    <td width="34%">Hiper automação com Power Platform</td>
+    <td width="33%">Governança e ALM na Power Platform</td>
   </tr>
 </tbody>
 </table>
@@ -40,7 +40,7 @@ notshow_in_nav: true
     <tbody class="body" >
       <tr>
         <td width="200px">
-            <img src="../assets/imgs/workshops-300.png" alt="Workshops">
+            <img src="../../assets/imgs/workshops-300.png" alt="Workshops">
         </td>
         <td>
             <h3><b>Workshops</b></h3>
@@ -55,8 +55,8 @@ notshow_in_nav: true
 <table class="tablewborders" >
     <tbody align="center">
       <tr>
-        <td><a href="../../events/closedevents/workshops/appinaday/"> <img src="../../assets/imgs/powerapps-ico-96.png" alt="App in a Day"> </a></td>
-        <td><a href="../../events/closedevents/workshops/rpainaday/"> <img src="../../assets/imgs/pautomate-ico-96.png" alt="RPA in a Day"></a></td>
+        <td><a href="../../events/closedevents/workshops/appinaday/"><img src="../../assets/imgs/powerapps-ico-96.png" alt="App in a Day"> </a></td>
+        <td><a href="../../events/closedevents/workshops/rpainaday/"><img src="../../assets/imgs/pautomate-ico-96.png" alt="RPA in a Day"></a></td>
         <td><a href="../../events/closedevents/workshops/admininaday/"><img src="../../assets/imgs/governance-ico.png" alt="Admin in a Day"></td>
       </tr>
       <tr>

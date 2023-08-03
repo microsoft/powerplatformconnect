@@ -76,6 +76,6 @@ Citzen developers/makers, pro-devs, analistas de automação, analistas de proce
 ### Quer se preparar para o evento?
 
 Acesse nossa coleção de conteúdo relavante sobre hiper automação na Power Platform:  
-[Power Automate](../../../getready/powerautomate)  
-[Power Virtual Agents](../../../getready/powervirtualagents)  
-[IA Builder](../../../getready/iabuilder)
+[Power Automate](../../../../getready/powerautomate)  
+[Power Virtual Agents](../../../../etready/powervirtualagents)  
+[IA Builder](../../../../getready/iabuilder)

@@ -61,4 +61,4 @@ Site desenvolvido com <a href="https://docs.github.com/pages" target="_blank">Gi
 <br/>
 <br/>
 <img src="assets/imgs/msdesigner-logo.png" alt="MS Designer Logo" width="30px">
-Todas as artes foram criadas utilizando <a href="https://designer.microsoft.com/" target="_blank">Microsoft Designer</a>
+Todas as artes criadas utilizando o <a href="https://designer.microsoft.com/" target="_blank">Microsoft Designer</a>

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Eventos anertos
+title: Eventos abertos
 permalink: /events/openevents/
 notshow_in_nav: true
 ---

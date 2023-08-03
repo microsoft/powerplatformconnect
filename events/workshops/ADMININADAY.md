@@ -65,5 +65,5 @@ Admins, IT pros, architects
 ### Quer se preparar para o evento?
 
 Acesse nossa coleção de conteúdo relavante sobre Governança e ALM na Power Platform:  
-[Governança](../../../getready/governance)
-[ALM](../../../getready/alm)
+[Governança](../../../../getready/governance)  
+[ALM](../../../../getready/alm)

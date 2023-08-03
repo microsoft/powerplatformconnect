@@ -71,6 +71,6 @@ Citzen developers/makers, pro-devs e arquitetos
 ### Quer se preparar para o evento?
 
 Acesse nossa coleção de conteúdo relavante sobre desenvolvimento de aplicativos e portais:  
-[Power Apps](../../../getready/powerapps)  
-[Power Pages](../../../getready/powerpages)  
-[Microsoft Dataverse](../../../getready/dataverse)
+[Power Apps](../../../../getready/powerapps)  
+[Power Pages](../../../../getready/powerpages)  
+[Microsoft Dataverse](../../../../getready/dataverse)

@@ -70,5 +70,5 @@ Citzen developers/makers, pro-devs
 ### Quer se preparar para o evento?
 
 Acesse nossa coleção de conteúdo relavante sobre Governança e ALM na Power Platform:  
-[Power Automate](../../../getready/powerautomate)
-[IA Builder](../../../getready/iabuilder)
+[Power Automate](../../../../getready/powerautomate)  
+[IA Builder](../../../../getready/iabuilder)

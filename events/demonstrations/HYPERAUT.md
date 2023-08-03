@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hiper automação com Power Platform
-permalink: /events/demos/hyperautomation/
+permalink: /events/closedevents/demos/hyperautomation/
 notshow_in_nav: true
 ---
 
@@ -75,7 +75,7 @@ Citzen developers/makers, pro-devs, analistas de automação, analistas de proce
 
 ### Quer se preparar para o evento?
 
-Acesse nossa coleção de conteúdo relavante sobre Governança e ALM na Power Platform:  
+Acesse nossa coleção de conteúdo relavante sobre hiper automação na Power Platform:  
 [Power Automate](../../../getready/powerautomate)  
 [Power Virtual Agents](../../../getready/powervirtualagents)  
 [IA Builder](../../../getready/iabuilder)

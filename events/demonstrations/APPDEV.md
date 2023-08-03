@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Desenvolvimento de Aplicativos e Portais com Power Platform
-permalink: /events/demos/appdev/
+permalink: /events/closedevents/demos/appdev/
 notshow_in_nav: true
 ---
 
@@ -70,7 +70,7 @@ Citzen developers/makers, pro-devs e arquitetos
 
 ### Quer se preparar para o evento?
 
-Acesse nossa coleção de conteúdo relavante sobre Governança e ALM na Power Platform:  
+Acesse nossa coleção de conteúdo relavante sobre desenvolvimento de aplicativos e portais:  
 [Power Apps](../../../getready/powerapps)  
 [Power Pages](../../../getready/powerpages)  
 [Microsoft Dataverse](../../../getready/dataverse)

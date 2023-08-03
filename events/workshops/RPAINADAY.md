@@ -1,7 +1,7 @@
 ---
 layout: page
 title: RPA in a Day
-permalink: /events/workshops/rpainaday/
+permalink: /events/closedevents/workshops/rpainaday/
 notshow_in_nav: true
 ---
 

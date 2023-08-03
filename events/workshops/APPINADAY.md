@@ -1,7 +1,7 @@
 ---
 layout: page
 title: App in a Day
-permalink: /events/workshops/appinaday/
+permalink: /events/closedevents/workshops/appinaday/
 notshow_in_nav: true
 ---
 

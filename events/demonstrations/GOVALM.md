@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Governança e ALM na Power Platform
-permalink: /events/demos/govalm/
+permalink: /events/closedevents/demos/govalm/
 notshow_in_nav: true
 ---
 

@@ -36,12 +36,12 @@ Citzen developers/makers, pro-devs, analistas de automação, analistas de proce
     <td><b>Audiência recomendada</b></td>
   </tr>
   <tr>
-    <td>Oportunidade do low-code</td>
+    <td>A nova era de negócios impulsionados por IA</td>
     <td>10</td>
     <td>Citizen developers/makers, pro-developers</td>
   </tr>
   <tr>
-    <td>Introdução à Power Platform</td>
+    <td>Sobre a Power Platform</td>
     <td>15</td>
     <td>Citizen developers/makers, pro-developers</td>
   </tr>

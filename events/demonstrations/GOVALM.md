@@ -36,12 +36,12 @@ IT pros e arquitetos
     <td><b>Audiência recomendada</b></td>
   </tr>
   <tr>
-    <td>Oportunidade do low-code</td>
+    <td>A inovação e seus desafios para a liderança de TI</td>
     <td>10</td>
     <td>IT-pros, arquitetos</td>
   </tr>
   <tr>
-    <td>Introdução à Power Platform</td>
+    <td>Sobre a Power Platform</td>
     <td>15</td>
     <td>IT-pros, arquitetos</td>
   </tr>

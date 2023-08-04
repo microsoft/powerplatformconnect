@@ -1,9 +1,3 @@
----
-layout: page
-title: MIT License
-permalink: /policies/license/
-notshow_in_nav: true
----
 
     Copyright (c) Microsoft Corporation.
 

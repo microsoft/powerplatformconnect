@@ -13,7 +13,7 @@ notshow_in_nav: true
         </td>
         <td>
             <h3><b>Eventos abertos</b></h3>
-            Eventos abertos ao público em geral, onde a participação é feita através de inscrição online disponível neste site.
+            Lista de eventos organizados pela Microsoft ou parceiros que são abertos para inscrição ao público em geral
         </td>
       </tr>
       <tr>
@@ -21,7 +21,7 @@ notshow_in_nav: true
       </tr>
      <tr>
         <td width="200px">
-            <a href="../events/closedevents/"><img src="../assets/imgs/events-closed.png" alt="Eventos fechados">
+            <a href="../events/closedevents/"><img src="../assets/imgs/events-closed.png" alt="Eventos fechados"> </a>
         </td>
         <td>
             <h3><b>Eventos fechados</b></h3>

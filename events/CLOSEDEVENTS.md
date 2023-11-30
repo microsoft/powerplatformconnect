@@ -36,7 +36,7 @@ notshow_in_nav: true
 </tbody>
 </table>
 
-<table class="tablenborders">
+<!-- <table class="tablenborders">
     <tbody class="body" >
       <tr>
         <td width="200px">
@@ -64,5 +64,5 @@ notshow_in_nav: true
         <td>RPA in a Day</a></td>
         <td>Admin in a Day</a></td>
       </tr>
-    </tbody>
-    </table>
+    </tbody> 
+    </table>-->

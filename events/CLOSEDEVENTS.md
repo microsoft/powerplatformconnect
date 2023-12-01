@@ -26,11 +26,22 @@ notshow_in_nav: true
   <tr>
     <td><a href="../../events/closedevents/demos/appdev/"><img src="../../assets/imgs/appdev-img.png" alt="App Develop com Power Platform"></a></td>
     <td><a href="../../events/closedevents/demos/hyperautomation/"><img src="../../assets/imgs/hyperautom-img.png" alt="Hiper automação com Power Platform"></a></td>
-    <td><a href="../../events/closedevents/demos/govalm/"><img src="../../assets/imgs/govalm-img.png" alt="Governança e ALM na Power Platform"></a></td>
   </tr>
   <tr>
     <td width="33%">Desenvolvimento de Aplicativos e Portais com Power Platform</td>
     <td width="34%">Hiper automação com Power Platform</td>
+  </tr>
+</tbody>
+</table>
+
+<table class="tablewborders">
+<tbody align="center">
+  <tr>
+    <td><a href="../../events/closedevents/demos/copilot/"><img src="../../assets/imgs/CopilotStudio.png" alt="Copilot para Power Platform"></a></td>
+        <td><a href="../../events/closedevents/demos/govalm/"><img src="../../assets/imgs/govalm-img.png" alt="Governança e ALM na Power Platform"></a></td>
+  </tr>
+  <tr>
+    <td width="33%">Copilot para Power Platform </td>
     <td width="33%">Governança e ALM na Power Platform</td>
   </tr>
 </tbody>

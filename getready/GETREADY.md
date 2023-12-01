@@ -32,9 +32,9 @@ notshow_in_nav: true
                     Portais empresariais seguros.
             </td>
             <td width=50% align="center">
-                <a href="../getready/powervirtualagents/"><img src="../assets/imgs/pva-ico-96.png" alt="Power Virtual Agents"></a>
-                    <h4><b>Power Virtual Agents</b></h4>
-                    Chatbots inteligentes.
+                <a href="../getready/copilot/"><img src="../assets/imgs/CopilotStudio.png" alt="Copilot Studio"></a>
+                    <h4><b>Copilot Studio</b></h4>
+                    Copilots com IA.
             </td>
         </tr>
       <tr>

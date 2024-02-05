@@ -26,6 +26,15 @@ O **Power Platform Connect** é uma iniciativa dos especialistas técnicos em **
       </tr>
       <tr>
         <td width="200px">
+            <a href="events/"><img src="assets/imgs/demonstration-300.png" alt="Eventos"></a>
+        </td>
+        <td>
+            <h3><b>Eventos</b></h3>
+            Agenda de sessões online onde são apresentadas demonstrações de soluções desenvolvidas com Power Platform.
+        </td>
+      </tr>
+      <tr>
+        <td width="200px">
             <a href="https://github.com/microsoft/powerplatformconnect/discussions" target="_blank">
                 <img src="assets/imgs/discussions-ico-200.png" alt="Discussões">
                 </a>
@@ -42,15 +51,6 @@ O **Power Platform Connect** é uma iniciativa dos especialistas técnicos em **
         <td>
             <h3><b>Blog</b></h3>
             Artigos técnicos escritos pelos especialistas Microsoft.
-        </td>
-      </tr>
-      <tr>
-        <td width="200px">
-            <a href="events/"><img src="assets/imgs/demonstration-300.png" alt="Eventos"></a>
-        </td>
-        <td>
-            <h3><b>Eventos</b></h3>
-            Agenda de sessões online onde são apresentadas demonstrações de soluções desenvolvidas com Power Platform.
         </td>
       </tr>
     </tbody>

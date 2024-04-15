@@ -33,32 +33,47 @@ IT pros e arquitetos
   <tr>
     <td><b>Tópico</b></td>
     <td><b>Duração</b></td>
-    <td><b>Audiência recomendada</b></td>
+    <td><b>Detalhamento</b></td>
   </tr>
   <tr>
     <td>A inovação e seus desafios para a liderança de TI</td>
     <td>10</td>
-    <td>IT-pros, arquitetos</td>
+    <td>Os desafios do aumento da demanda digital e da quantidade de desenvolvedores</td>
   </tr>
   <tr>
-    <td>Sobre a Power Platform</td>
+    <td>Estabelecendo um centro de excelência em low-code</td>
+    <td>10</td>
+    <td>Definições, modelos de operação,papeis envolvidos e responsabilidades</td>
+  </tr>
+  <tr>
+    <td>Pilares de governança (1): Segurança</td>
+    <td>40</td>
+    <td>Apresentação dos principais recursos de segurança da Power Platform</td>
+  </tr>
+  <tr>
+    <td>Pilares de governança (2): Monitoramento</td>
+    <td>30</td>
+    <td>Apresentação dos principais recursos de monitoramento da Power Platform</td>
+  </tr>
+  <tr>
+    <td>Visão geral do CoE Starter Kit</td>
+    <td>25</td>
+    <td>Como utilizar o CoE Stater Kit para automatizar o gerenciamento, monitoramento e governança da Power Platform</td>
+  </tr>
+  <tr>
+    <td>ALM na Power Platform: conceitos fundamentais</td>
     <td>15</td>
-    <td>IT-pros, arquitetos</td>
+    <td>Apresentação dos conceitos e recursos que habilitam o ALM na Power Platform</td>
   </tr>
-  <tr>
-    <td>Governança, segurança e monitoramento na Power Platform</td>
-    <td>45</td>
-    <td>IT-pros, arquitetos</td>
-  </tr>
-  <tr>
-    <td>Estabelecendo um CoE de Power Platform</td>
-    <td>45</td>
-    <td>IT-pros, arquitetos</td>
-  </tr>
-  <tr>
-    <td>ALM na Power Platform</td>
-    <td>45</td>
-    <td>IT-pros, arquitetos</td>
+    <tr>
+    <td>ALM na Power Platform: ferramentas</td>
+    <td>15</td>
+    <td>Apresentação das ferramentas disponíveis para administradores, makers e pro-developers</td>
+  </tr>  
+    <tr>
+    <td>Encerramento</td>
+    <td>15</td>
+    <td>Perguntas e respostas, mensagens finais e próximos passos</td>
   </tr>  
 </tbody>
 </table>

@@ -33,38 +33,43 @@ Citzen developers/makers, pro-devs e arquitetos
   <tr>
     <td><b>Tópico</b></td>
     <td><b>Duração</b></td>
-    <td><b>Audiência recomendada</b></td>
+    <td><b>Detalhamento</b></td>
   </tr>
   <tr>
-    <td>A nova era de negócios impulsionados por IA</td>
+    <td>A oportunidade do low-code</td>
     <td>10</td>
-    <td>Citizen developers/makers, pro-developers</td>
+    <td>Como o low-code pode impulsionar a inovação digital nas organizações</td>
   </tr>
   <tr>
     <td>Sobre a Power Platform</td>
     <td>15</td>
-    <td>Citizen developers/makers, pro-developers</td>
+    <td>Principais componentes e recursos da plataforma</td>
   </tr>
   <tr>
-    <td>Power Apps Canvas</td>
-    <td>30</td>
-    <td>Citizen developers/makers, pro-developers</td>
+    <td>Power Platform deep dive (1): Canvas apps</td>
+    <td>35</td>
+    <td>Princiais recursos e funcionalidades</td>
   </tr>
   <tr>
-    <td>Power Apps Model Driven e Dataverse</td>
-    <td>45</td>
-    <td>Citizen developers/makers, pro-developers</td>
+    <td>Power Platform deep dive (2): Dataverse e model driven apps</td>
+    <td>35</td>
+    <td>Princiais recursos e funcionalidades</td>
   </tr>
   <tr>
-    <td>Power Pages</td>
-    <td>30</td>
-    <td>Citizen developers/makers, pro-developers, arquitetos</td>
-  </tr>  
+    <td>Power Platform deep dive (3): Power Pages</td>
+    <td>35</td>
+    <td>Princiais recursos e funcionalidades</td>
+  </tr>
   <tr>
-    <td>Fusion Teams com Power Platform (makers and pro-developers trabalhando em conjunto)</td>
-    <td>30</td>
-    <td>Citizen developers/makers, pro-developers, arquitetos</td>
-  </tr>  
+    <td>Como criar soluções de escala empresarial com low-code</td>
+    <td>15</td>
+    <td>Como criar onectores e componentes customizados para interagir com suas aplicações e dados</td>
+  </tr>
+  <tr>
+    <td>Encerramento</td>
+    <td>15</td>
+    <td>Perguntas e respostas, mensagens finais e próximos passos</td>
+  </tr>
 </tbody>
 </table>
 

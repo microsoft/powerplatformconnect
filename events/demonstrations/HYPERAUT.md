@@ -16,11 +16,11 @@ Capacidade da turma: **100 pessoas**
 
 ### Pré-requisitos
 
-Conhecimentos **básicos** em Power Automate, Power Virtual Agents e IA Builder
+Conhecimentos **básicos** em Power Automate e IA Builder
 
 ### Objetivo
 
-Apresentação técnica da Power Platform e de seus componentes relacionados ao desenvolvimento de automações e chatbots/agentes conversacionais
+Apresentação técnica da Power Platform e de seus componentes relacionados ao desenvolvimento de automações.
 
 ### Audiência
 
@@ -33,42 +33,42 @@ Citzen developers/makers, pro-devs, analistas de automação, analistas de proce
   <tr>
     <td><b>Tópico</b></td>
     <td><b>Duração</b></td>
-    <td><b>Audiência recomendada</b></td>
+    <td><b>Detalhamento</b></td>
   </tr>
   <tr>
-    <td>A nova era de negócios impulsionados por IA</td>
+    <td>Por que automatizar?</td>
     <td>10</td>
-    <td>Citizen developers/makers, pro-developers</td>
+    <td>As mudanças na força de trabalho e os desafios de negócio que impulsionam a busca por uma maior automação</td>
   </tr>
   <tr>
     <td>Sobre a Power Platform</td>
     <td>15</td>
-    <td>Citizen developers/makers, pro-developers</td>
+    <td>Principais componentes e recursos da plataforma</td>
   </tr>
   <tr>
-    <td>DPA e BPA com Power Automate</td>
+    <td>A jornada da hiper automação (1): descubra</td>
     <td>30</td>
-    <td>Citizen developers/makers, pro-developers</td>
+    <td>Como utilizar process e task mining para descobrir o que precisa ser automatizado</td>
   </tr>
   <tr>
-    <td>Agentes conversacionais com Power Virtual Agents</td>
-    <td>30</td>
-    <td>Citizen developers/makers, pro-developers</td>
+    <td>A jornada da hiper automação (2): automatize</td>
+    <td>45</td>
+    <td>Como utilizar fluxos DPA e RPA e modelos de ML do AI Builder para automatizar processos</td>
   </tr>
   <tr>
-    <td>Process e Task Mining</td>
-    <td>30</td>
-    <td>Citizen developers/makers, pro-developers e analistas de processos</td>
+    <td>A jornada da hiper automação (3): orquestre</td>
+    <td>45</td>
+    <td>Como utilizar os recursos de admininstração e monitoramento da Power Platform para gerenciar as automações. Como as Hosted Machines e Hosted Machine Groups permitem escalar a automação e reduzir custos ao mesmo tempo </td>
   </tr>
   <tr>
-    <td>Robot Process Automation</td>
-    <td>30</td>
-    <td>Citizen developers/makers, pro-developers, analistas de automação e arquitetos</td>
+    <td>A jornada da hiper automação (4): estenda</td>
+    <td>15</td>
+    <td>Como integrar as automações com o Microsoft 365, Dynamics 365, Power Platform e Azure. Como estender o SAP com a Power Platform</td>
   </tr>
-  <tr>
-    <td>Estendendo o SAP com Power Platform</td>
-    <td>30</td>
-    <td>Citizen developers/makers, pro-developers, analistas de automação e arquitetos</td>
+    <tr>
+    <td>Encerramento</td>
+    <td>20</td>
+    <td>Perguntas e respostas, mensagens finais e próximos passos</td>
   </tr>
 </tbody>
 </table>

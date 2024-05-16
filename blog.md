@@ -5,7 +5,7 @@ permalink: /blog/
 notshow_in_nav: false
 ---
 
-<table class="tablenborders">
+<!-- <table class="tablenborders">
     <tbody class="body" >
       <tr>
         <td width="200px">
@@ -17,4 +17,4 @@ notshow_in_nav: false
         </td>
       </tr>
     </tbody>
-</table>
+</table> -->

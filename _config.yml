@@ -55,6 +55,9 @@ plugins:
 #additional configs
 markdown: GFM
 
+permalink: /blog/:categories/:year/:month/:day/:title/
+excerpt_separator: "<!--more-->"
+
 #include the following folders in the build
 include:
  - _includes

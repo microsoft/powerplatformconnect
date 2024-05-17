@@ -44,7 +44,7 @@ O **Power Platform Connect** é uma iniciativa dos especialistas técnicos em **
             Espaço onde você poderá esclarecer dúvidas com os especialistas Microsoft.
         </td>
       </tr>
-      <tr>
+      <!-- <tr>
         <td width="200px">
             <a href="blog/"><img src="assets/imgs/blog-ico-200.png" alt="Blog"></a>
         </td>
@@ -52,7 +52,7 @@ O **Power Platform Connect** é uma iniciativa dos especialistas técnicos em **
             <h3><b>Blog</b></h3>
             Artigos técnicos escritos pelos especialistas Microsoft.
         </td>
-      </tr>
+      </tr> -->
     </tbody>
     </table>
 

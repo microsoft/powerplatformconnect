@@ -2,7 +2,7 @@
 layout: blog
 title: Blog
 permalink: /blog/
-notshow_in_nav: false
+notshow_in_nav: true
 ---
 
 <!-- <table class="tablenborders">

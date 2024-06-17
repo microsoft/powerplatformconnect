@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Desenvolvimento de Aplicativos e Portais com Power Platform
+title: Desenvolvimento avançado de aplicativos e portais com Power Platform
 permalink: /events/closedevents/demos/appdev/
 notshow_in_nav: true
 ---
@@ -11,8 +11,8 @@ Tipo: **Demonstração**
 Local: **Online (Teams)**  
 Componentes abordados: **Power Apps, Power Pages, Microsoft Dataverse**  
 Nível: **200 (Intermediário)**  
-Duração: **3 horas**  
-Capacidade da turma: **100 pessoas**  
+Duração: **2 horas e 30 minutos**  
+Capacidade da turma: **200 pessoas**  
 
 ### Pré-requisitos
 
@@ -32,43 +32,35 @@ Citzen developers/makers, pro-devs e arquitetos
 <tbody align="left">
   <tr>
     <td><b>Tópico</b></td>
-    <td><b>Duração</b></td>
-    <td><b>Detalhamento</b></td>
+    <td><b>Duração (minutos)</b></td>
   </tr>
   <tr>
-    <td>A oportunidade do low-code</td>
+    <td>Introdução</td>
     <td>10</td>
-    <td>Como o low-code pode impulsionar a inovação digital nas organizações</td>
   </tr>
   <tr>
-    <td>Sobre a Power Platform</td>
+    <td>Cenários e arquiteturas de referência para desenvolvimento low-code</td>
+    <td>30</td>
+  </tr>
+  <tr>
+    <td>Escolhendo uma plataforma de dados para seu aplicativo</td>
     <td>15</td>
-    <td>Principais componentes e recursos da plataforma</td>
   </tr>
   <tr>
-    <td>Power Platform deep dive (1): Canvas apps</td>
+    <td>Dataverse como backend de dados, segurança e regras de negócio</td>
+    <td>30</td>
+  </tr>
+  <tr>
+    <td>Desenvolva mais rápido apps e portais com o apoio da IA</td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>Recursos avançados para o desenvolvimento de apps e portais</td>
     <td>35</td>
-    <td>Princiais recursos e funcionalidades</td>
-  </tr>
-  <tr>
-    <td>Power Platform deep dive (2): Dataverse e model driven apps</td>
-    <td>35</td>
-    <td>Princiais recursos e funcionalidades</td>
-  </tr>
-  <tr>
-    <td>Power Platform deep dive (3): Power Pages</td>
-    <td>35</td>
-    <td>Princiais recursos e funcionalidades</td>
-  </tr>
-  <tr>
-    <td>Como criar soluções de escala empresarial com low-code</td>
-    <td>15</td>
-    <td>Como criar onectores e componentes customizados para interagir com suas aplicações e dados</td>
   </tr>
   <tr>
     <td>Encerramento</td>
-    <td>15</td>
-    <td>Perguntas e respostas, mensagens finais e próximos passos</td>
+    <td>10</td>
   </tr>
 </tbody>
 </table>

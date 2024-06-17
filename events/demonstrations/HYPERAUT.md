@@ -9,14 +9,14 @@ notshow_in_nav: true
 
 Tipo: **Demonstração**  
 Local: **Online (Teams)**  
-Componentes abordados: **Power Automate, IA Builder, Power Virtual Agents**  
-Nível: **200 (Intermediário)**  
-Duração: **3 horas**  
-Capacidade da turma: **100 pessoas**  
+Componentes abordados: **Power Automate e IA Builder**  
+Nível: **300 (Avançado)**  
+Duração: **2 horas e 30 minutos**  
+Capacidade da turma: **200 pessoas**  
 
 ### Pré-requisitos
 
-Conhecimentos **básicos** em Power Automate e IA Builder
+Conhecimentos **básicos** em Power Automate e IA Builder e/ou de fundamentos de automatação digital (DPA) e robótica (RPA)
 
 ### Objetivo
 
@@ -32,43 +32,31 @@ Citzen developers/makers, pro-devs, analistas de automação, analistas de proce
 <tbody align="left">
   <tr>
     <td><b>Tópico</b></td>
-    <td><b>Duração</b></td>
-    <td><b>Detalhamento</b></td>
+    <td><b>Duração (minutos)</b></td>
   </tr>
   <tr>
-    <td>Por que automatizar?</td>
+    <td>Process Mining: técnicas avançadas de ETL, filtros, RCA, análise e relatórios</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td>AI Builder, fluxos cloud e desktop: padrões recomendados e boas práticas</td>
+    <td>60</td>
+  </tr>
+  <tr>
+    <td>Orquestrando automações com AI Flows</td>
     <td>10</td>
-    <td>As mudanças na força de trabalho e os desafios de negócio que impulsionam a busca por uma maior automação</td>
   </tr>
   <tr>
-    <td>Sobre a Power Platform</td>
-    <td>15</td>
-    <td>Principais componentes e recursos da plataforma</td>
+    <td>Segurança e governança</td>
+    <td>20</td>
   </tr>
-  <tr>
-    <td>A jornada da hiper automação (1): descubra</td>
-    <td>30</td>
-    <td>Como utilizar process e task mining para descobrir o que precisa ser automatizado</td>
-  </tr>
-  <tr>
-    <td>A jornada da hiper automação (2): automatize</td>
-    <td>45</td>
-    <td>Como utilizar fluxos DPA e RPA e modelos de ML do AI Builder para automatizar processos</td>
-  </tr>
-  <tr>
-    <td>A jornada da hiper automação (3): orquestre</td>
-    <td>45</td>
-    <td>Como utilizar os recursos de admininstração e monitoramento da Power Platform para gerenciar as automações. Como as Hosted Machines e Hosted Machine Groups permitem escalar a automação e reduzir custos ao mesmo tempo </td>
-  </tr>
-  <tr>
-    <td>A jornada da hiper automação (4): estenda</td>
-    <td>15</td>
-    <td>Como integrar as automações com o Microsoft 365, Dynamics 365, Power Platform e Azure. Como estender o SAP com a Power Platform</td>
+    <tr>
+    <td>Estenda: Power Platform, M365, Azure e SAP</td>
+    <td>20</td>
   </tr>
     <tr>
     <td>Encerramento</td>
-    <td>20</td>
-    <td>Perguntas e respostas, mensagens finais e próximos passos</td>
+    <td>15</td>
   </tr>
 </tbody>
 </table>
@@ -77,5 +65,4 @@ Citzen developers/makers, pro-devs, analistas de automação, analistas de proce
 
 Acesse nossa coleção de conteúdo relavante sobre hiper automação na Power Platform:  
 [Power Automate](../../../../getready/powerautomate)  
-[Power Virtual Agents](../../../../etready/powervirtualagents)  
 [IA Builder](../../../../getready/iabuilder)

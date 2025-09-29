@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Calculadora de Preços – WhatsApp + Microsoft (HTML isolado)</title>
+  <style>
+    :root{
+      --bg:#0b1020; --card:#121832; --muted:#9aa3b2; --text:#f5f7fb; --accent:#6fa8ff; --ok:#13c296; --border:#232b4a;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      background: radial-gradient(1000px 500px at 10% -10%, #1a2248 0, #0b1020 40%, #0b1020 100%);
+      color:var(--text);
+    }
+    .wrap{max-width:1100px; margin:32px auto; padding:0 16px}
+    h1{font-size:clamp(24px,2.8vw,34px); margin:0 0 8px}
+    .sub{color:var(--muted); margin:0 0 24px; font-size:14px}
+    .grid{display:grid; gap:16px}
+    @media (min-width: 960px){ .grid{grid-template-columns:1.1fr 1fr} }
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.0)); border:1px solid var(--border); border-radius:16px; padding:16px}
+    .card h2{margin:0 0 8px; font-size:18px}
+    .row{display:grid; grid-template-columns: 1fr auto; align-items:center; gap:12px; margin:10px 0}
+    .row label{font-size:14px; color:var(--muted)}
+    select,input[type="number"],input[type="text"]{
+      background:#0e1430; border:1px solid var(--border); color:var(--text); border-radius:10px; padding:10px 12px; width:100%; font:inherit;
+    }
+    input[type="range"]{ width:100% }
+    .pill{display:inline-flex; gap:8px; align-items:center; background:#0e1430; border:1px solid var(--border); border-radius:999px; padding:8px 12px; color:var(--muted); font-size:12px}
+    .muted{color:var(--muted)}
+    .totals{display:grid; gap:12px}
+    .totalBox{background:#0e1430; border:1px dashed var(--border); padding:12px; border-radius:12px}
+    .totalBox h3{margin:0 0 6px; font-size:16px}
+    .totalFigure{font-size:28px; font-weight:700}
+    .cols2{display:grid; gap:12px}
+    @media (min-width:720px){ .cols2{grid-template-columns:1fr 1fr} }
+    .kicker{font-size:12px; color:var(--muted)}
+    button{appearance:none; background:transparent; color:var(--text); border:1px solid var(--border); border-radius:10px; padding:10px 12px; font:inherit; cursor:pointer}
+    button.primary{background:linear-gradient(180deg, #2f67ff, #2052d6); border-color:#1f47c4}
+    .disclaimer{font-size:12px; color:var(--muted); line-height:1.6}
+    .hr{height:1px; background:var(--border); margin:12px 0}
+    .tag{font-size:11px; text-transform:uppercase; letter-spacing:.08em; color:#a7b6ff}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Calculadora de Preços – WhatsApp + Microsoft</h1>
+    <p class="sub">Calculadora não oficial, para estudos apenas. Ajuste as quantidades e (opcionalmente) as tarifas da Meta e Microsoft. As tarifas vem pré-preenchidas e podem ser alteradas.</p>
+
+    <div class="grid">
+      <section class="card" aria-labelledby="config">
+        <h2 id="config">Configurações</h2>
+        <div class="row">
+          <label for="country">País (opcional)</label>
+          <select id="country" aria-describedby="countryHelp"></select>
+        </div>
+        <div id="countryHelp" class="kicker">O país serve apenas para referência visual nesta versão. As tarifas da Meta variam por país e devem ser inseridas abaixo.</div>
+        <div class="row">
+          <label for="currency">Moeda</label>
+          <select id="currency">
+            <option value="USD" selected>USD</option>
+          </select>
+        </div>
+        <div class="row">
+          <label for="microsoftFee">Tarifa da Microsoft por mensagem</label>
+          <div style="display:flex; gap:8px; align-items:center">
+            <span class="pill" id="microsoftFeePreview">$0.005</span>
+            <input type="number" id="microsoftFee" min="0" step="0.0001" value="0.005" inputmode="decimal" aria-label="Tarifa da Microsoft por mensagem" />
+          </div>
+        </div>
+        <div class="hr"></div>
+        <button id="resetBtn">Redefinir calculadora</button>
+      </section>
+
+      <section class="card totals">
+        <div class="totalBox">
+          <div class="tag">Total mensal estimado</div>
+          <div class="totalFigure" id="grandTotal">$0.00</div>
+        </div>
+        <div class="cols2">
+          <div class="totalBox">
+            <h3>Meta (soma)</h3>
+            <div id="metaSum">$0.00</div>
+          </div>
+          <div class="totalBox">
+            <h3>Microsoft (soma)</h3>
+            <div id="microsoftSum">$0.00</div>
+          </div>
+        </div>
+        <p class="disclaimer">* Preços e regras podem mudar sem aviso. Esta calculadora não inclui recursos adicionais (ex.: encurtamento de links).<br/>Use as tabelas oficiais do WhatsApp para preencher as tarifas da Meta (por país e categoria).</p>
+      </section>
+    </div>
+
+    <div class="grid" style="margin-top:16px">
+      <section class="card" aria-labelledby="utilHeading">
+        <h2 id="utilHeading">Modelo de <strong>Utilitário</strong></h2>
+        <div class="row">
+          <label>Tarifa da Meta (fora da janela de atendimento) – por mensagem</label>
+          <input type="number" id="utilMeta" min="0" step="0.0001" value="0.0068" inputmode="decimal" placeholder="ex.: 0.0068" />
+        </div>
+        <div class="row">
+          <label>Nº de mensagens <em>dentro</em> da janela (Meta = 0)</label>
+          <input type="range" id="utilInQty" min="0" max="80000" value="0" />
+        </div>
+        <div class="row">
+          <label>Nº de mensagens <em>fora</em> da janela</label>
+          <input type="range" id="utilOutQty" min="0" max="80000" value="0" />
+        </div>
+        <div class="hr"></div>
+        <div class="row"><label>Subtotal Utilitário</label><div id="utilSubtotal">$0.00</div></div>
+        <div class="kicker" id="utilBreak"></div>
+      </section>
+
+      <section class="card" aria-labelledby="authHeading">
+        <h2 id="authHeading">Modelo de <strong>Autenticação</strong></h2>
+        <div class="row">
+          <label>Tarifa da Meta – por mensagem</label>
+          <input type="number" id="authMeta" min="0" step="0.0001" value="0.0068" inputmode="decimal" placeholder="ex.: 0.0068" />
+        </div>
+        <div class="row">
+          <label>Nº de mensagens</label>
+          <input type="range" id="authQty" min="0" max="100000" value="0" />
+        </div>
+        <div class="hr"></div>
+        <div class="row"><label>Subtotal Autenticação</label><div id="authSubtotal">$0.00</div></div>
+        <div class="kicker" id="authBreak"></div>
+      </section>
+    </div>
+
+    <div class="grid" style="margin-top:16px">
+      <section class="card" aria-labelledby="mktHeading">
+        <h2 id="mktHeading">Modelo de <strong>Marketing</strong></h2>
+        <div class="row">
+          <label>Tarifa da Meta – por mensagem</label>
+          <input type="number" id="mktMeta" min="0" step="0.0001" value="0.0625" inputmode="decimal" placeholder="ex.: 0.0625" />
+        </div>
+        <div class="row">
+          <label>Nº de mensagens</label>
+          <input type="range" id="mktQty" min="0" max="200000" value="0" />
+        </div>
+        <div class="hr"></div>
+        <div class="row"><label>Subtotal Marketing</label><div id="mktSubtotal">$0.00</div></div>
+        <div class="kicker" id="mktBreak"></div>
+      </section>
+
+      <section class="card" aria-labelledby="freeHeading">
+        <h2 id="freeHeading"><strong>Mensagens de formato livre</strong> (dentro da janela)</h2>
+        <div class="row">
+          <label>Tarifa da Meta</label>
+          <input type="text" value="Sem cobranças" disabled aria-disabled="true" />
+        </div>
+        <div class="row">
+          <label>Nº de mensagens</label>
+          <input type="range" id="freeQty" min="0" max="100000" value="0" />
+        </div>
+        <div class="hr"></div>
+        <div class="row"><label>Subtotal Formato livre</label><div id="freeSubtotal">$0.00</div></div>
+        <div class="kicker" id="freeBreak"></div>
+      </section>
+    </div>
+
+    <p class="kicker" style="margin-top:16px">Dica: Valores apenas para referência, podem sofre alteração e incidência de impostos. Ajuste as tarifas da Meta a da Microsoft conforme as tabelas oficiais do WhatsApp e do Azure para sua empresa.</p>
+  </div>
+
+  <script>
+    // --- Utilidades ---
+    const fmt = new Intl.NumberFormat('en-US', { style:'currency', currency:'USD', maximumFractionDigits: 2 });
+    const fmt4 = new Intl.NumberFormat('en-US', { style:'currency', currency:'USD', minimumFractionDigits: 4, maximumFractionDigits: 4 });
+
+    const el = id => document.getElementById(id);
+
+    const state = {
+      currency: 'USD',
+      microsoftFee: 0.005,
+      // rates da Meta (inseridas pelo usuário)
+      utilMeta: 0.0068,
+      authMeta: 0.0068,
+      mktMeta: 0.0625,
+      // quantidades
+      utilInQty: 0,
+      utilOutQty: 0,
+      authQty: 0,
+      mktQty: 0,
+      freeQty: 0
+    };
+
+    // const COUNTRIES = [
+    //   'Afghanistan','Albania','Algeria','Angola','Argentina','Armenia','Australia','Austria','Azerbaijan','Bahrain','Bangladesh','Belarus','Belgium','Benin','Bolivia','Botswana','Brazil','Bulgaria','Burkina Faso','Burundi','Cambodia','Cameroon','Canada','Chad','Chile','China','Colombia','Costa Rica','Croatia','Czech Republic','Denmark','Dominican Republic','Ecuador','Egypt','El Salvador','Eritrea','Ethiopia','Finland','France','Gabon','Gambia','Georgia','Germany','Ghana','Greece','Guatemala','Guinea-Bissau','Haiti','Honduras','Hong Kong','Hungary','India','Indonesia','Iraq','Ireland','Israel','Italy','Ivory Coast','Jamaica','Japan','Jordan','Kenya','Kuwait','Laos','Latvia','Lebanon','Lesotho','Liberia','Libya','Lithuania','Madagascar','Malawi','Malaysia','Mali','Mauritania','Mexico','Moldova','Mongolia','Morocco','Mozambique','Namibia','Nepal','Netherlands','New Zealand','Nicaragua','Niger','Nigeria','North Macedonia','Norway','Oman','Pakistan','Panama','Papua New Guinea','Paraguay','Peru','Philippines','Poland','Portugal','Puerto Rico','Qatar','Republic of the Congo','Romania','Russia','Rwanda','Saudi Arabia','Senegal','Serbia','Sierra Leone','Singapore','Slovakia','Slovenia','Somalia','South Africa','South Korea','South Sudan','Spain','Sri Lanka','Sudan','Swaziland','Sweden','Switzerland','Taiwan','Tajikistan','Tanzania','Thailand','Togo','Tunisia','Turkey','Turkmenistan','Uganda','Ukraine','United Arab Emirates','United Kingdom','United States','Uruguay','Uzbekistan','Venezuela','Vietnam','Yemen','Zambia','All other countries'
+    // ];
+
+    const COUNTRIES = [
+      'United States'
+    ];    
+    function mountCountryList(){
+      const sel = el('country');
+      COUNTRIES.forEach(c=>{
+        const o = document.createElement('option'); o.value=c; o.textContent=c; sel.appendChild(o);
+      });
+      sel.value = 'United States';
+    }
+
+    // --- Cálculo ---
+    function calc(){
+      const msft = state.microsoftFee;
+      // Utilitário: dentro da janela -> somente Microsoft; fora -> Microsoft + Meta
+      const utilMicrosoft = (state.utilInQty + state.utilOutQty) * msft;
+      const utilMeta = state.utilOutQty * state.utilMeta;
+      const utilTotal = utilMicrosoft + utilMeta;
+
+      const authMicrosoft = state.authQty * msft; const authMeta = state.authQty * state.authMeta; const authTotal = authMicrosoft + authMeta;
+      const mktMicrosoft = state.mktQty * msft; const mktMeta = state.mktQty * state.mktMeta; const mktTotal = mktMicrosoft + mktMeta;
+      const freeMicrosoft = state.freeQty * msft; const freeMeta = 0; const freeTotal = freeMicrosoft;
+
+      const microsoftSum = utilMicrosoft + authMicrosoft + mktMicrosoft + freeMicrosoft;
+      const metaSum = utilMeta + authMeta + mktMeta + freeMeta;
+      const grand = microsoftSum + metaSum;
+
+      // Atualiza UI
+      el('microsoftFeePreview').textContent = fmt4.format(msft);
+      el('utilSubtotal').textContent = fmt.format(utilTotal);
+      el('authSubtotal').textContent = fmt.format(authTotal);
+      el('mktSubtotal').textContent = fmt.format(mktTotal);
+      el('freeSubtotal').textContent = fmt.format(freeTotal);
+      el('microsoftSum').textContent = fmt.format(microsoftSum);
+      el('metaSum').textContent = fmt.format(metaSum);
+      el('grandTotal').textContent = fmt.format(grand);
+
+      el('utilBreak').textContent = `${fmt4.format(msft)} Microsoft x ${(state.utilInQty + state.utilOutQty)} msgs  +  ${fmt4.format(state.utilMeta)} Meta x ${state.utilOutQty} msgs`;
+      el('authBreak').textContent = `${fmt4.format(msft)} Microsoft x ${state.authQty} msgs  +  ${fmt4.format(state.authMeta)} Meta x ${state.authQty} msgs`;
+      el('mktBreak').textContent = `${fmt4.format(msft)} Microsoft x ${state.mktQty} msgs  +  ${fmt4.format(state.mktMeta)} Meta x ${state.mktQty} msgs`;
+      el('freeBreak').textContent = `${fmt4.format(msft)} Microsoft x ${state.freeQty} msgs  +  Meta isenta dentro da janela`;
+    }
+
+    function bind(){
+      const map = [
+        ['microsoftFee','microsoftFee'], ['utilMeta','utilMeta'], ['authMeta','authMeta'], ['mktMeta','mktMeta'],
+        ['utilInQty','utilInQty'], ['utilOutQty','utilOutQty'], ['authQty','authQty'], ['mktQty','mktQty'], ['freeQty','freeQty']
+      ];
+      map.forEach(([inputId,key])=>{
+        el(inputId).addEventListener('input', e=>{
+          const v = Number(e.target.value || 0);
+          state[key] = isFinite(v) ? v : 0; calc();
+        });
+      });
+
+      el('resetBtn').addEventListener('click', ()=>{
+        ['utilMeta','authMeta','mktMeta'].forEach(id=> el(id).value = '');
+        ['utilInQty','utilOutQty','authQty','mktQty','freeQty'].forEach(id=> el(id).value = 0);
+        el('microsoftFee').value = 0.005;
+        state.microsoftFee = 0.005; state.utilMeta=0.0068; state.authMeta=0.0068; state.mktMeta=0.0625; state.utilInQty=0; state.utilOutQty=0; state.authQty=0; state.mktQty=0; state.freeQty=0;
+        calc();
+      });
+    }
+
+    // Inicialização
+    mountCountryList(); bind(); calc();
+  </script>
+</body>
+</html>
